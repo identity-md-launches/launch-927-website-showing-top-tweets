@@ -1,0 +1,12 @@
+# Path budget: 512 bytes; see artifacts/submission-budget.md.
+# Match dependency and cache directories at every nesting level.
+node_modules/
+.npm/
+.cache/
+.vite/
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+/test/scratch/
+# dist/ is intentionally included: the publisher serves the export.
